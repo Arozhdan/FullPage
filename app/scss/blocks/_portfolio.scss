@@ -1,0 +1,50 @@
+.portfolio{
+min-height: 800px;
+}
+.portfolio-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.portfolio-title{
+  text-align: right;
+  margin-top: 50px;
+  letter-spacing: 1.4px;
+  font-size: 30px;
+}
+.portfolio-item{
+  width: 33%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 10px;
+  &:hover span{
+    opacity: 1;
+    background-color: #fff;
+    transform: translateY(0);
+  }
+  span{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: 700;
+    opacity: 0;
+    transition: all 0.45s ;
+    transform: translateY(20px);
+  }
+}
+.portfolio-cover{
+  display: block;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.portfolio-item__more{
+  background-position: center top;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,51 @@
+.work {
+  min-height: 800px;
+  margin: 100px 0;
+}
+
+.work-gallery {
+  width: 70%;
+}
+.work-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-content {
+  display: inline-block;
+  margin-top: 100px;
+  text-align: center;
+  width: 25%;
+  color: $primary;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 1.4px;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0px 0px 100px 0px rgba(107, 106, 107, 1);
+  background-color: $secondary;
+  transform: translateY(100px);
+}
+
+.work-slider-btn {
+  position: absolute;
+  outline: none;
+  background-color: rgba(255, 0, 0, 0.671);
+  border: none;
+  width: 80px;
+  height: 80px;
+  font-weight: 300;
+  font-size: 45px;
+  color: $primary;
+  top: 0;
+  z-index: 5;
+  transition: all .6s;
+
+  &:hover {
+    background-color: $red;
+  }
+}
+
+.work-next-bnt {
+  left: 80px;
+}

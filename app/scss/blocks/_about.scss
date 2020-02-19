@@ -1,0 +1,31 @@
+.about{
+  margin-top: 10px;
+  min-height: 1000px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+.about-left{
+  width: 30%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.about-right{
+  width: 60%; 
+  background-color: $primary;
+  padding-left: 5%;
+}
+.about-title{
+  margin-top: 50px;
+  color: $red;
+  font-size: 35px;
+  margin-bottom: 50px;
+  letter-spacing: 1.4px;
+}
+.about-description{
+  width: 80%; 
+  letter-spacing: 1.2px;
+  line-height: 1.3;
+}

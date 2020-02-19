@@ -1,0 +1,31 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+@import "animation";
+@import "components";
+
+
+
+
+// blocks
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/skills";
+@import "blocks/portfolio";
+@import "blocks/feedback";
+@import "blocks/form-section";
+@import "blocks/footer";
+
+
+// pages
+@import "pages/portfolio";
+@import "pages/works";
+
+
+
+
+
+
+
+@import "media";

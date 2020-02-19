@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 0px;
+    border: none;
+  }
+}
+a{
+  text-decoration: none;
+  color: $secondary;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}

@@ -1,0 +1,36 @@
+.form-section{
+  height: 700px;
+}
+.form-title{
+  text-align: right;
+  margin: 50px;
+}
+.form{
+  label{
+    font-weight: 300;
+    color: $secondary;
+    font-size: 25px;
+    line-height: 2.4;
+  }
+  input{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid $red;
+    outline: none;
+    padding: 10px;
+  }
+  textarea{
+    width: 50%;
+    resize: none;
+    height: 150px;
+    border: none;
+    border-right: 2px solid;
+    border-color: $red;
+    padding: 10px;
+    outline: none;
+
+  }
+}
+.btn-form{
+  color: $secondary;
+}

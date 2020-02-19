@@ -1,0 +1,48 @@
+.skills{
+  margin-top: 50px;
+  min-height: 800px;
+  background-color: $secondary;
+}
+.skills-title{
+  padding-top: 50px;
+  text-align: center;
+  color: $primary;
+  letter-spacing: 1.5px;
+  font-size: 35px;
+}
+.skills-wrapper{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.skills-block{
+  padding-top: 15%;
+  text-align: center;
+  width: 30%;
+  color: $gray;
+  letter-spacing: 1.4px;
+  font-weight: 300;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position:  center 50px;
+  span{
+    display: inline-block;
+    color: $red;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+  b{
+    font-size: 18px;
+  }
+}
+.skills-block:first-child{
+  background-image: url(../../img/html.svg);
+}
+
+.skills-block:nth-child(2){
+  background-image: url(../../img/script.svg);
+}
+
+.skills-block:nth-child(3){
+  background-image: url(../../img/php.svg);
+}
